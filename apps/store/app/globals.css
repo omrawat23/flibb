@@ -1,0 +1,250 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-family: 'Poppins', sans-serif;
+    --color-text: #000;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 142.1 76.2% 36.3%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 142.1 76.2% 36.3%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 0 0% 95%;
+    --card: 24 9.8% 10%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 142.1 70.6% 45.3%;
+    --primary-foreground: 144.9 80.4% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 142.4 71.8% 29.2%;
+  }
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.display-4 {
+  font-size: 64pt;
+  line-height: 84pt;
+  font-weight: 600; 
+
+}
+
+.display-3 {
+  font-size: 52pt;
+  line-height: 84pt;
+  font-weight: 600;
+
+}
+
+/* Header 1 */
+.header-1 {
+  font-size: 48pt;
+  line-height: 56pt;
+  font-weight: 600; 
+}
+
+/* Header 2 */
+.header-2 {
+  font-size: 32pt;
+  line-height: 40pt;
+  font-weight: 600; 
+}
+
+/* Header 3 */
+.header-3 {
+  font-size: 24pt;
+  line-height: 32pt;
+  font-weight: 600; 
+}
+
+/* Body 1 */
+.body-1 {
+  font-size: 18pt;
+  line-height: 26pt;
+  font-weight: 600; 
+
+}
+
+.body-1-regular {
+  font-size: 18pt;
+  line-height: 26pt;
+  font-weight: 400; 
+
+}
+
+/* Body 2 */
+.body-2 {
+  font-size: 16pt;
+  line-height: 24pt;
+  font-weight: 600; 
+
+}
+
+.body-2-regular {
+  font-size: 16pt;
+  line-height: 24pt;
+  font-weight: 400; 
+}
+
+/* Body 3 */
+.body-3 {
+  font-size: 14pt;
+  line-height: 20pt;
+  font-weight: 600; 
+}
+
+.body-3-regular {
+  font-size: 14pt;
+  line-height: 20pt;
+  font-weight: 400; 
+
+}
+
+/* Caption */
+.caption {
+  font-size: 12pt;
+  line-height: 16pt;
+  font-weight: 600; 
+
+}
+
+
+.display {
+  font-size: 32pt;
+  line-height: 40pt;
+  font-weight: 500; 
+
+}
+
+/* Header 1 */
+.header-12 {
+  font-size: 24pt;
+  line-height: 32pt;
+  font-weight: 600; 
+}
+
+/* Header 2 */
+.header-22 {
+  font-size: 18pt;
+  line-height: 26pt;
+  font-weight: 600; 
+  
+}
+
+/* Header 3 */
+.header-32 {
+  font-size: 16pt;
+  line-height: 24pt;
+  font-weight: 600; 
+ 
+}
+/* .header-332{
+  font-size: 12pt;
+  line-height: 24pt;
+  font-weight: 600; /* 
+
+} */
+
+/* .header-32-regular {
+  font-size: 16pt;
+  line-height: 24pt;
+  font-weight: 400; 
+} */
+
+/* Body 1 */
+.body-12 {
+  font-size: 14pt;
+  line-height: 20pt;
+  font-weight: 500; 
+
+}
+
+.body-12-regular {
+  font-size: 14pt;
+  line-height: 20pt;
+  font-weight: 400; 
+  
+}
+
+/* Body 2 */
+.body-22 {
+  font-size: 12pt;
+  line-height: 16pt;
+  font-weight: 500; 
+ 
+}
+
+.body-22-regular {
+  font-size: 12pt;
+  line-height: 16pt;
+  font-weight: 400; 
+}
+
+/* Caption */
+.caption {
+  font-size: 10pt;
+  line-height: 12pt;
+  font-weight: 500; 
+  
+}
+
+
+.button {
+  width: 232px;
+  height: 50px;
+  padding: 12px 24px;
+  gap: 10px;
+  border-radius: 8px 0px 0px 0px;
+  border: 1.2px solid #FFFFFF;
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.phone-skew {
+  transform: perspective(400px) rotateY(3deg) skewX(11.1deg) skewY(-10.9deg);
+}
+
+
